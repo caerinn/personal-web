@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 15px;
+}
+
+img#heart {
+    width: 15px;
+    display:none;
+}
+
+a:hover {
+    img#heart{
+        display:inline;
+        background-image: url('https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.vhv.rs%2Fdpng%2Ff%2F411-4112443_undertale-png.png&sp=1790958554Td58ed5941e35cad99c1fd26dd51901fa4468678e9692a27575ee0d53927fa8cb');
+    }
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 1px 0;
+    border: 5px solid #FFFFFF;
+}
